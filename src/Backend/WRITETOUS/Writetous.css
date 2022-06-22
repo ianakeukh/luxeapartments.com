@@ -1,0 +1,103 @@
+.contact-card {
+    height: 550px !important;
+    width: 700px;
+}
+
+
+.card-body {
+    height: 550px !important;
+}
+
+
+.col-contact {
+    height: 70px!important;
+}
+
+#form-contact-name, #form-contact-email, #form-contact-phone, #form-contact-company {
+    height: 50px !important;
+    width: 100% !important;
+}
+
+#form-contact-message {
+    height: 50px !important;
+    width: 100% !important;
+}
+
+.btn-submit {
+    background-color: #a0828a !important;
+}
+
+
+@media (max-width: 576px) {
+    .contact-card {
+        width: 290px !important;
+    }
+
+    .contact-area {
+        width: 100% !important;
+        height: 50px;
+    }
+
+    .col-contact {
+        height: 170px!important;
+    }
+
+    .contact-card {
+        height: 620px !important;
+        width: 700px;
+    }
+
+
+    .card-body {
+        height: 620px !important;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .contact-card {
+        height: 500px !important;
+        width: 500px !important;
+    }
+
+    .contact-card {
+        height: 500px !important;
+        width: 700px;
+    }
+
+    .contact-card {
+        height: 500px !important;
+        width: 700px;
+    }
+
+
+    .card-body {
+        height: 500px !important;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact-text {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .contact-text {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .contact-text {
+        font-size: 1.5rem;
+    }
+}
